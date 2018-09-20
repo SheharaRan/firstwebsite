@@ -1,0 +1,51 @@
+.title{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+
+li a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 50px;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.current{
+    background-color: rgba(234,61,117, .7);
+}
+
+#right{
+    float: right;
+}
+
+/*when the user hovers then apply these CSS tags*/
+li a:hover{
+    background-color: rgba(251,211,2, .3);
+    color: black;
+}
+
+h3{
+    font-family: 'Roboto';
+}
+
+#songs{
+    font-family: 'Roboto';
+}
+
+h2{
+    font-family: 'Roboto';
+}
